@@ -1,0 +1,8 @@
+{{message}}
+<form action="/employeeSubmit" method="post">
+  Name: <input type="text" name ="name" [(ngModel)]="emp.name"/><br>
+  Address: <input type="text" name = "address" [(ngModel)]="emp.address"><br>
+  Salary: <input type="text" name = "salary" [(ngModel)]="emp.salary"><br>
+  Contact: <input type="text" name = "contact" [(ngModel)]="emp.contact"><br>
+  <button (click)="Submitted()">Submit</button>
+</form>
